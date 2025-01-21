@@ -86,10 +86,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("emailID").value = row.children[2].textContent;
         document.getElementById("contactNumber").value = row.children[3].textContent;
         row.remove();
-        saveStudents();
+        saveStudents();  // call the function
       }
     });
   
-    loadStudents();
+    loadStudents(); // call fuction  
   });
   
