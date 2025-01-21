@@ -1,0 +1,130 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dfddd9;
+}
+
+header {
+  text-align: center;
+  background-color: #b37070;
+  color: rgb(255, 252, 252);
+  padding: 2px;
+  /* width: 100vw; */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #d42c20;
+  text-align: center;
+  font-size: 30px;
+}
+
+form {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+form input,
+form button {
+  padding: 9px;
+  font-size: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* border-radius: 5%; */
+}
+form input:hover {
+  border-color: #ae00ff;
+  box-shadow: 1px 1px 3px blueviolet;
+  /* border-top: none;
+    border-left: none;
+    border-right: none; */
+}
+
+
+/* Remove the default border and show only the bottom border */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  border: none; /* Remove the default border */
+  border-bottom: 2px solid #00c3ff; /* Add bottom border */
+  outline: none; /* Remove the default focus outline */
+  background: transparent; /* Transparent background for cleaner look */
+  font-size: 16px; /* Adjust font size */
+  padding: 5px 10px; /* Add padding for better spacing */
+  width: 99%; /* Make the input full width (optional) */
+  margin-bottom: 20px;
+}
+
+/* Change border color on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  border-bottom: 2px solid #0056b3; /* Change bottom border color on focus */
+  margin-bottom: 20px;
+}
+
+/* Optional: Add a smooth transition for focus effect */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  transition: border-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #4e7fb4;
+  color: white;
+}
+
+/*  button section */
+button {
+  background-color: #ae00ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 20px; */
+  width: 70%;
+  /* display: flex; */
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px blueviolet;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
+
